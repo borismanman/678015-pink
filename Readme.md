@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Борис Манукян](https://up.htmlacademy.ru/adaptive/15/user/678015).
-* Наставник: `Неизвестно`.
+* Наставник: [Аркадий Лукашов](https://htmlacademy.ru/profile/id871159).
 
 ---
 
