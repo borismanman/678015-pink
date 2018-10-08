@@ -1,12 +1,153 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>HTML Academy Pink</title>
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p>
+    <header class="page-header">
+      <a class="page-header logo">
+        <img class="page-header logo-image"src="http://placehold.it/150x100" alt="Пинк">
+      </a>
+      <nav class="main-navigation">
+        <button class="main-navigation__toggles" type="button">Открыть меню</button>
+        <div class="main-navigation__wrapper">
+          <ul class="main-navigation__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a>Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="photo.html">Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">HTML Academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <h1 class="visually-hidden">Приложение Pink, разукрась свои серые будни !</h1>
+      <section class="download">
+        <h2 class="visually-hidden">Взгляни на жизнь ярче</h2>
+        <button class="download__app" type="button">Скачать приложение</button>
+        <a href="#"><img class="download__platform download__platform--iphone" src="http://placehold.it/150x100"></a>
+        <a href="#"><img class="download__platform download__platform--androind" src="http://placehold.it/150x100"></a>
+        <a href="#"><img class="download__platform download__platform--windows" src="http://placehold.it/150x100"></a>
+        <p class="download__availible">
+            Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+        </p>
+      </section>
+
+      <section class="advantages">
+        <h2 class="advantages__title">Устали от серости мегаполиса?<br>Нам есть, что вам предложить!</h2>
+        <ul class="advantages__list">
+          <li class="advantages-item">
+            <h3 class="advantages-item__title">Поднимает настроение</h3>
+            <p class="advantages-item__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </li>
+          <li>
+            <h3 class="advantages-item__title">Меняет мир вокруг</h3>
+            <p class="advantages__item__description"> Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </li>
+          <li>
+            <h3 class="advantages-item__title">Заводит новых друзей</h3>
+            <p class="advantages__item__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          </li>
+        </ul>
+      </section>
+
+      <section calss="reviews">
+        <div class="reviews__wrapper">
+          <img class="reviews__img" src="http://placehold.it/150x100">
+          <h2 class="visually-hidden">Отзывы о нас</h2>
+          <div class="reviews__list">
+            <blockquote class="reviews__item">
+              <cite class="reviews__author-name">Николай Петров</cite>
+              <p class="reviews__text">"Это приложение перевернуло мой мир и
+            позволило по-новому вглянуть на привычные серые вещи! А ещё я
+            познакомился со своей будущей женой в комментариях к выложенной
+            фотографии!"</p>
+            </blockquote>
+
+            <blockquote class="reviews__item">
+              <cite class="reviews__author-name">Александр Сушилкин</cite>
+              <p class="reviews__text">"Это приложение перевернуло мой мир и
+              позволило по-новому вглянуть на привычные серые вещи! А ещё я
+              познакомился со своей будущей женой в комментариях к выложенной
+              фотографии!"</p>
+            </blockquote>
+
+            <blockquote class="reviews__item">
+              <cite class="reviews__author-name">Пётр Удачников</cite>
+              <p class="reviews__text">"Это приложение перевернуло мой мир и
+              позволило по-новому вглянуть на привычные серые вещи! А ещё я
+              познакомился со своей будущей женой в комментариях к выложенной
+              фотографии!"</p>
+            </blockquote>
+          </div>
+          <p class="reviews__toggles">
+            <button class="" type="button">1</button>
+            <button class="" type="button">2</button>
+            <button class="" type="button">3</button>
+          </p>
+        </div>
+      </section>
+
+      <section class="price">
+        <ul class="price__list">
+          <li class="price__rate price__rate--hit">
+            Стандарт
+          </li>
+          <li class="price__money">
+            3,99 USD
+          </li>
+          <li class="price__filter price__filter--check-mark">
+            Розовый фильт
+          </li>
+          <li class="price__smile price__smile--check-mark">
+            Смайлики
+          </li>
+          <li class="price__comments price__comments--cross">
+            Комментарии
+          </li>
+        </ul>
+        <p class="price__toggles">
+            <button class="" type="button">1</button>
+            <button class="" type="button">2</button>
+            <button class="" type="button">3</button>
+        </p>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__contacts">
+        <h2 class="page-footer__communications">Остались вопросы?<br>Свяжитесь с нами!</h2>
+        <ul class="page-footer__contacts">
+          <li class="page-footer__contacts footer-contacts">
+            <div class="footer-contacts__connection">Звоните:</div>
+            <div class="footer-contacts__address">+7(812)555-66-66</div>
+          </li>
+          <li class="page-footer__contacts footer-contacts">
+            <div class="footer-contacts__connection">Пишите:</div>
+            <div class="footer-contacts__address">mail@htmlacademy.ru</div>
+          </li>
+          <li class="page-footer__contacts footer-contacts">
+            <div class="footer-contacts__connection">Приезжайте в гости:</div>
+            <div class="footer-contacts__address">ул.Большая Конюшенная, 19/8</div>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__maps">
+        <img class="maps" src="#">
+      </div>
+    </footer>
 
   </body>
 </html>
