@@ -7,25 +7,25 @@
   </head>
   <body>
 
-    <header class="page-header">
-      <a class="page-header logo">
-        <img class="page-header logo-image"src="http://placehold.it/150x100" alt="Пинк">
+    <header class="header">
+      <a class="header__logo logo">
+        <img class="logo-image"src="http://placehold.it/150x100" alt="Пинк">
       </a>
       <nav class="main-navigation">
         <button class="main-navigation__toggles" type="button">Открыть меню</button>
         <div class="main-navigation__wrapper">
-          <ul class="main-navigation__list site-list">
+          <ul class="main-navigation-list">
             <li class="site-list__item site-list__item--active">
-              <a href="index.html">Главная</a>
+              <a class="main-navigation-list__link href="index.html">Главная</a>
             </li>
             <li class="site-list__item">
-              <a href="photo.html">Фотографии</a>
+              <a class="main-navigation-list__link href="photo.html">Фотографии</a>
             </li>
             <li class="site-list__item">
-              <a href="form.html">Конкурс</a>
+              <a class="main-navigation-list__link href="form.html">Конкурс</a>
             </li>
             <li class="site-list__item">
-              <a href="#">HTML Academy</a>
+              <a class="main-navigation-list__link href="#">HTML Academy</a>
             </li>
           </ul>
         </div>
@@ -33,29 +33,22 @@
     </header>
 
     <main class="page-content">
-      <h2 class="page-content__contest">Конкурс на самое безбашенное путешествие с Пинк</h2>
-      <form class="page-content__forms form" action="https://echo.htmlacademy.ru/" method="get">
+      <h2 class="page-content__title">Конкурс на самое безбашенное путешествие с Пинк</h2>
+      <form class="page-content__form form" action="https://echo.htmlacademy.ru/" method="get">
         <div class="form__section">
           <p class="form__heading">Поделитесь своей историей и получите шанс выиграть ценный приз-1000 миль на вашу бонусную карту!</p>
           <fieldset class="form__field">
-            <label class="form__label" for="surname">
-              <span class="form__text">Фамилия:</span>
-              <input class="form__input" type="text" id="surname" name="user-surname" placeholder="Укажите фамилию*" required>
-            </label>
+            <label class="form__label" for="surname">Фамилия:</label>
+            <input class="form__input" type="text" id="surname" name="user-surname" placeholder="Укажите фамилию*" required>
           </fieldset>
           <fieldset class="form__field">
-            <label class="form__label" for="name">
-              <span class="form__text">Имя:</span>
-              <input class="form__input" type="text" id="name" name="user-name" placeholder="Введите ваше имя*" required>
-            </label>
+            <label class="form__label" for="name">Имя:</label>
+            <input class="form__input" type="text" id="name" name="user-name" placeholder="Введите ваше имя*" required>
           </fieldset>
           <fieldset class="form__field">
-            <label class="form__label" for="patronymic">
-              <span class="form__text">Отчество:</span>
-              <input class="form__input" type="text" id="patronymic" name="user-patronymic" placeholder="Ну и отчество тоже">
-            </label>
+            <label class="form__label" for="patronymic">Отчество:</label>
+            <input class="form__input" type="text" id="patronymic" name="user-patronymic" placeholder="Ну и отчество тоже">
           </fieldset>
-
         </div>
         <div class="field-checkbox">
           <h3 class="field-checkbox__caption">ВАШИ БЕЗБАШЕННЫЕ ДОСТИЖЕНИЯ В ПУТЕШЕСТВИИ</h3>
@@ -125,9 +118,9 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__logo">
-        <a class="footer__logo--link" href="index.html">
-          <img src="http://placehold.it/150x100" alt="Pink">
+      <div class="footer__logo logo">
+        <a class="logo__link" href="index.html">
+          <img class="logo__image" src="http://placehold.it/150x100" alt="Pink">
         </a>
       </div>
 
@@ -143,10 +136,10 @@
         </li>
       </ul>
 
-      <div class="footer__copyright">
-        <a class="footer__copyright-link" href="https://htmlacademy.ru/" >
-          <p class="copyright_text">Разработано</p>
-          <img src="http://placehold.it/150x100">
+      <div class="copyright">
+        <a class="copyright__link" href="https://htmlacademy.ru/" >
+          <p class="copyright__text">Разработано</p>
+          <img class="copyright__image" src="http://placehold.it/150x100">
         </a>
       </div>
 
