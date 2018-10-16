@@ -1,0 +1,85 @@
+.form__heading{
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.form__field{
+  border: none;
+}
+
+.form__text{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.form__input{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.field-checkbox{
+  background-color: hsl(0, 0, 96);
+}
+
+.field-checkbox__caption{
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.field-checkbox__text{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.field-text__text{
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.field-text__input{
+  font-size: 18px;
+  ling-height: 30px;
+}
+
+.field-radio{
+  background-color: hsl(0, 0, 96);
+}
+
+.field-radio__header{
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.field-radio__text{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.emotions {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.field-textarea__emotions{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.form__button{
+  width: 280px;
+  height: 63px;
+  border: none;
+  border-radius: 3px;
+  background-color: hsl(151, 75, 59);
+  color: hsl(0, 0, 100);
+}
+
+.form__required{
+  font-size: 14px;
+  line-height: 30px;
+}

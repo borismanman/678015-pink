@@ -1,0 +1,52 @@
+$colorcomments: hsl(0, 0, 96);
+
+.photos__text{
+  font-size: 14px;
+  line-height: auto;
+  text-align: center;
+  background-color: $colorcomments;
+}
+
+.photos__author-name{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.photos__author-late{
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: lighter;
+}
+
+.photos__comments{
+  background-color: $colorcomments;
+  width: 280px;
+}
+
+.photos__comment{
+  font-size: 14px;
+  line-height: 24px;
+  width: 280px;
+}
+
+.photos__like{
+  color: $colorpink;
+}
+
+.photos__button{
+  background: url(../img/heart.png) 100% 100% no-repeat;
+  border: none;
+  height: 12px;
+  width: 13px;
+}
+
+.upload__text{
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.upload__center{
+  background-color: $colorcomments;
+}

@@ -1,0 +1,28 @@
+$text-color: hsl(211, 42, 20);
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family:'Open Sans', sans-serif;
+  color: $text-color;
+}
+
+::-webkit-input-placeholder{
+  color: $text-color;
+  opacity: 1;
+}
+
+::-moz-placeholder{
+  color: $text-color;
+  opacity: 1;
+}
+
+:-moz-placeholder{
+  color: $text-color;
+  opacity: 1;
+}
+
+:-ms-input-placeholder{
+  color: $text-color;
+  opacity: 1;
+}

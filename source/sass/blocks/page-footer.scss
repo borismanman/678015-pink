@@ -1,0 +1,16 @@
+$color-footercontacts: hsl(344, 81, 54);
+
+.page-footer__communications{
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.footer-contacts__connection{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-contacts__address{
+  font-size: 24px;
+  color: $color-footercontacts;
+}

@@ -1,0 +1,23 @@
+$color-indexblue: hsl(213, 41, 12);
+$color-textwhite: hsl(0, 0, 100);
+
+.price__list {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.price__rate {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.price__item {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.price__rate,
+.price__money {
+  background-color: $color-indexblue;
+  color: $color-textwhite;
+}
