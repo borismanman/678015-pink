@@ -2,7 +2,11 @@ $color-indexblue: hsl(213, 41, 12);
 $color-textwhite: hsl(0, 0, 100);
 
 .download {
+  text-align: center;
   background-color: $color-indexblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid green;
 }
 
 .download__app {

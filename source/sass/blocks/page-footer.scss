@@ -1,5 +1,10 @@
 $color-footercontacts: hsl(344, 81, 54);
 
+.page-footer{
+  text-align: center;
+  border: 2px solid green;
+}
+
 .page-footer__communications{
   font-size: 24px;
   font-weight: lighter;

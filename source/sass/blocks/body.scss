@@ -7,6 +7,10 @@ body {
   color: $text-color;
 }
 
+li{
+  list-style: none;
+}
+
 ::-webkit-input-placeholder{
   color: $text-color;
   opacity: 1;
