@@ -40,29 +40,33 @@
       <section class="photos">
         <h1 class="visually-hidden">Фотографии</h1>
         <p class="photos__text">Взгляните на фотографии, которые выкладывают пользователи!Видите, как не хватает ваших ?</p>
-        <article class="photos__panorama">
-          <h3 class="visually-hidden">Фотография</h3>
-          <a class="photos__link" href="#">
-            <picture class="photos__pic">
-              <img src="http://placehold.it/150x100" alt="панорама дня">
-            </picture>
-          </a>
-          <div class="photos__comments">
-            <div class="photos__author">
-              <b class="photos__author-name">Анна</b>
-              <span class="photos__author-late">(5 минут назад)</span>
-            </div>
-            <p class="photos__comment">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
-            <div class="photos__button-like">
-              <button class="photos__button" type="button">
-                <svg></svg>
-                <span class="visually-hidden">Поставь лайк!</span>
-              </button>
-              <span class="photos__like">НРАВИТСЯ:215</span>
-            </div>
-          </div>
-          <ul class="photos__center">
-            <li class="photo">
+        <ul class="photos__center">
+          <li class="photo">
+            <article class="photo__block">
+              <h3 class="visually-hidden">Фотография</h3>
+              <a class="photos__link" href="#">
+                <picture class="photos__pic">
+                  <img src="http://placehold.it/150x100" alt="панорама дня">
+                </picture>
+              </a>
+              <div class="photos__comments">
+                <div class="photos__author">
+                  <b class="photos__author-name">Анна</b>
+                  <span class="photos__author-late">(5 минут назад)</span>
+                </div>
+                <p class="photos__comment">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+                <div class="photos__button-like">
+                  <button class="photos__button" type="button">
+                    <svg></svg>
+                    <span class="visually-hidden">Поставь лайк!</span>
+                  </button>
+                  <span class="photos__like">НРАВИТСЯ:215</span>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="photo">
+            <article class="photo__block">
               <h3 class="visually-hidden">Фотография</h3>
               <a class="photos__link" href="#">
                 <picture class="photos_pic">
@@ -83,8 +87,10 @@
                   <span class="photos__like">НРАВИТСЯ:356</span>
                 </div>
               </div>
-            </li>
-            <li class="photo">
+            </article>
+          </li>
+          <li class="photo">
+            <article class="photo__block">
               <h3 class="visually-hidden">Фотография</h3>
               <a class="photos__link" href="#">
                 <picture class="photos_pic">
@@ -105,8 +111,10 @@
                   <span class="photos__like">НРАВИТСЯ:666</span>
                 </div>
               </div>
-            </li>
-            <li class="photo">
+            </article>
+          </li>
+          <li class="photo">
+            <article class="photo__block">
               <h3 class="visually-hidden">Фотография</h3>
               <a class="photos__link" href="#">
                 <picture class="photos_pic">
@@ -127,8 +135,10 @@
                   <span class="photos__like">НРАВИТСЯ:215</span>
                 </div>
               </div>
-            </li>
-            <li class="photo">
+            </article>
+          </li>
+          <li class="photo">
+            <article class="photo__block">
               <h3 class="visually-hidden">Фотография</h3>
               <a class="photos__link" href="#">
                 <picture class="photos_pic">
@@ -149,8 +159,10 @@
                   <span class="photos__like">НРАВИТСЯ:4</span>
                 </div>
               </div>
-            </li>
-            <li class="photo">
+            </article>
+          </li>
+          <li class="photo">
+            <article class="photo__block">
               <h3 class="visually-hidden">Фотография</h3>
               <a class="photos__link" href="#">
                 <picture class="photos_pic">
@@ -171,8 +183,10 @@
                   <span class="photos__like">НРАВИТСЯ:150</span>
                 </div>
               </div>
-            </li>
-            <li class="photo">
+            </article>
+          </li>
+          <li class="photo">
+            <article class="photo__block">
               <h3 class="visually-hidden">Фотография</h3>
               <a class="photos__link" href="#">
                 <picture class="photos_pic">
@@ -193,13 +207,13 @@
                   <span class="photos__like">НРАВИТСЯ:2560</span>
                 </div>
               </div>
-            </li>
-            <p class="photos__text">Затми их всех! Выкладывай всё, что накопилось в телефоне!</p>
-          </ul>
-        </article>
+            </article>
+          </li>
+          <p class="photos__text">Затми их всех! Выкладывай всё, что накопилось в телефоне!</p>
+        </ul>
       </section>
       <section class="upload-form">
-        <div class="upload-form__center">
+        <form class="upload-form__center">
           <picture class="upload-form__pic">
             <img src="http://placehold.it/150x100" alt="зимняя дорога">
           </picture>
@@ -219,7 +233,7 @@
                 <span class="visually-hidden">Настроить цвет</span>
               </button>
               <div class="upload__scale upload__scale--tablet">
-                <input class="upload__slider" type="radio" min="0" max="100" step="1" value="50">
+                <input class="upload__slider" type="range" min="0" max="100" step="1" value="50">
               </div>
             </div>
             <div class="list__control--item toggle">
@@ -237,7 +251,7 @@
             <button class="upload__btn upload__btn--post" type="button" name="upload">Запостить</button>
             <button class="upload__btn upload__btn--cancel" type="button" name="cancel">Отмена</button>
           </div>
-        </div>
+        </form>
       </section>
     </main>
 
