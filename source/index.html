@@ -50,17 +50,17 @@
       <section class="advantages">
         <h2 class="advantages__title">Устали от серости мегаполиса?<br>Нам есть, что вам предложить!</h2>
         <ul class="advantages__list">
-          <li class="advantages-item">
-            <h3 class="advantages-item__title">Поднимает настроение</h3>
-            <p class="advantages-item__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          <li class="advantages__item">
+            <h3 class="advantages__item--title">Поднимает настроение</h3>
+            <p class="advantages__item--description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
           </li>
           <li>
-            <h3 class="advantages-item__title">Меняет мир вокруг</h3>
-            <p class="advantages-item__description"> Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            <h3 class="advantages__item--title">Меняет мир вокруг</h3>
+            <p class="advantages__item--description"> Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
           </li>
           <li>
-            <h3 class="advantages-item__title">Заводит новых друзей</h3>
-            <p class="advantages-item__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+            <h3 class="advantages__item--title">Заводит новых друзей</h3>
+            <p class="advantages__item--description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
       </section>
@@ -69,68 +69,88 @@
         <div class="reviews__wrapper">
           <img class="reviews__img" src="img/iphone-screen-mobile@1x.png">
           <h2 class="visually-hidden">Отзывы о нас</h2>
-          <div class="reviews__list">
-            <blockquote class="reviews__item">
-              <cite class="reviews__author-name">Николай Петров</cite>
-              <p class="reviews__text">"Это приложение перевернуло мой мир и
+          <ul class="reviews__list">
+            <li class="reviews__item">
+              <blockquote class="reviews__item--quote">
+                <cite class="reviews__author-name">Николай Петров</cite>
+                <p class="reviews__text">"Это приложение перевернуло мой мир и
             позволило по-новому вглянуть на привычные серые вещи! А ещё я
             познакомился со своей будущей женой в комментариях к выложенной
             фотографии!"</p>
             </blockquote>
+            </li>
 
-            <blockquote class="reviews__item">
-              <cite class="reviews__author-name">Александр Сушилкин</cite>
-              <p class="reviews__text">"Это приложение перевернуло мой мир и
+            <li class="reviews__item">
+              <blockquote class="reviews__item--quote">
+                <cite class="reviews__author-name">Александр Сушилкин</cite>
+                <p class="reviews__text">"Это приложение перевернуло мой мир и
               позволило по-новому вглянуть на привычные серые вещи! А ещё я
               познакомился со своей будущей женой в комментариях к выложенной
               фотографии!"</p>
-            </blockquote>
+              </blockquote>
+            </li>
 
-            <blockquote class="reviews__item">
-              <cite class="reviews__author-name">Пётр Удачников</cite>
-              <p class="reviews__text">"Это приложение перевернуло мой мир и
+            <li class="reviews__item">
+              <blockquote class="reviews__item--quote">
+                <cite class="reviews__author-name">Пётр Удачников</cite>
+                <p class="reviews__text">"Это приложение перевернуло мой мир и
               позволило по-новому вглянуть на привычные серые вещи! А ещё я
               познакомился со своей будущей женой в комментариях к выложенной
               фотографии!"</p>
-            </blockquote>
-          </div>
-          <p class="reviews__toggles">
-            <button class="" type="button">1</button>
-            <button class="" type="button">2</button>
-            <button class="" type="button">3</button>
-          </p>
+              </blockquote>
+            </li>
+          </ul>
+          <ul class="reviews__toggles">
+            <li class="reviews__toggles--item">
+              <button class="button" type="button">1</button>
+            </li>
+            <li class="reviews__toggles--item">
+              <button class="button" type="button">2</button>
+            </li>
+            <li class="reviews__toggles--item">
+              <button class="button" type="button">3</button>
+            </li>
+          </ul>
         </div>
       </section>
 
       <section class="price">
-        <ul class="price__list">
-          <li class="price__rate price__rate--hit">
-            Стандарт
+        <table class="price__list">
+          <tbody class="price__list--table">
+            <tr>
+              <td class="price__rate price__rate--hit">Стандарт</td>
+            </tr>
+            <tr>
+              <td class="price__money">3,99 USD</td>
+            </tr>
+            <tr>
+              <td class="price__filter price__filter--check-mark">Розовый фильт</td>
+            </tr>
+            <tr>
+              <td class="price__smile price__smile--check-mark">Смайлики</td>
+            </tr>
+            <tr>
+              <td class="price__comments price__comments--cross">Комментарии</td>
+            </tr>
+          </tbody>
+        </table>
+        <ul class="price__toggles">
+          <li class="price__toggles--item">
+            <button class="button" type="button">1</button>
           </li>
-          <li class="price__money">
-            3,99 USD
+          <li class="price__toggles--item">
+            <button class="button" type="button">2</button>
           </li>
-          <li class="price__item price__filter--check-mark">
-            Розовый фильт
-          </li>
-          <li class="price__item price__smile--check-mark">
-            Смайлики
-          </li>
-          <li class="price__item price__comments--cross">
-            Комментарии
+          <li class="price__toggles--item">
+            <button class="button" type="button">3</button>
           </li>
         </ul>
-        <p class="price__toggles">
-            <button class="" type="button">1</button>
-            <button class="" type="button">2</button>
-            <button class="" type="button">3</button>
-        </p>
       </section>
     </main>
 
     <footer class="page-footer">
       <div class="page-footer__contacts">
-        <h2 class="page-footer__communications">Остались вопросы?<br>Свяжитесь с нами!</h2>
+        <h2 class="page-footer__communications">Остались вопросы?Свяжитесь с нами!</h2>
         <ul class="page-footer__contacts">
           <li class="page-footer__contacts footer-contacts">
             <div class="footer-contacts__connection">Звоните:</div>
