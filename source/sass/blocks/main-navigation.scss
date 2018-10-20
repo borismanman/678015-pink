@@ -1,0 +1,12 @@
+.site-list__item a {
+  text-decoration: none;
+  color: hsl(0, 0, 100);
+}
+
+.site-list__item a:hover {
+  color: $colorpink;
+}
+
+.site-list__item a:active {
+  color: hsl(336, 55, 29);
+}

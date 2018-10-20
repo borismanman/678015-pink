@@ -1,0 +1,24 @@
+.advantages {
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 2px solid red;
+}
+
+.advantages__title {
+  font-size: 24px;
+  line-height: auto;
+  font-weight: lighter;
+}
+
+h3.advantages__item--title {
+  margin-left: -30px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+p.advantages__item--description {
+  margin-left: -30px;
+  font-size: 14px;
+  line-height: 24px;
+}

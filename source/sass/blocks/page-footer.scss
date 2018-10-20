@@ -1,0 +1,33 @@
+$color-footercontacts: hsl(344, 81, 48);
+$colorlight: hsl(211, 42, 22);
+
+.page-footer {
+  text-align: center;
+  border: 2px solid green;
+}
+
+.page-footer__communications {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.footer-contacts__connection {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-contacts__address {
+  font-size: 24px;
+  color: $color-footercontacts;
+}
+
+.footer-contacts__address a:hover {
+  color: hsl(211, 42, 22);
+  text-decoration: underline;
+}
+
+.footer-contacts__address a:active {
+  color: lighten($colorlight, 50%);
+  font-weight: lighter;
+  text-decoration: none;
+}
