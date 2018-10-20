@@ -1,16 +1,14 @@
-@import 'blocks/body';
-@import 'blocks/page-main';
-@import 'blocks/colorpink';
-@import 'blocks/visually-hidden';
-@import 'blocks/page-header';
-@import 'blocks/site-list';
-@import 'blocks/download';
-@import 'blocks/advantages';
-@import 'blocks/reviews';
-@import 'blocks/price';
-@import 'blocks/page-footer';
-
-@import 'blocks/form/page-content';
-@import 'blocks/form/form';
-
-@import 'blocks/photo/photos'
+@import "blocks/colorpink";
+@import "blocks/body";
+@import "blocks/main-navigation";
+@import "blocks/visually-hidden";
+@import "blocks/page-header";
+@import "blocks/site-list";
+@import "blocks/download";
+@import "blocks/advantages";
+@import "blocks/reviews";
+@import "blocks/price";
+@import "blocks/page-footer";
+@import "blocks/form/page-content";
+@import "blocks/form/form";
+@import "blocks/photo/photos"
