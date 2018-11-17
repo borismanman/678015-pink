@@ -2,10 +2,121 @@
   color: hsl(0, 0, 100);
   font-weight: lighter;
   text-align: center;
+  font-size: 24px;
+  margin-top: 160px;
+}
+
+@media (min-width: 660px) {
+  .page-header__title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 81px;
+    line-height: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-header__title {
+    margin-top: 20px;
+  }
 }
 
 .page-content__contest {
   font-size: 24px;
   font-weight: lighter;
   color: $color-textwhite;
+}
+
+@media (min-width: 660px) {
+  .page-content__form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-content__form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.field-radio fieldset {
+  border: none;
+}
+
+.field-radio label {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+@media (min-width: 660px) {
+  .field-radio .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1200px) {
+  .field-radio .container {
+    width: 435px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 660px) {
+  .field-radio label {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 660px) {
+  .field-radio fieldset {
+    border: 2px solid hsl(0, 0, 91);
+    padding-bottom: 11px;
+  }
+}
+
+.form__section .visually-hidden {
+    visibility: hidden;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -11px;
+}
+
+@media (min-width: 660px) {
+  .form__section .visually-hidden {
+    visibility: visible;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form__section .visually-hidden {
+    visibility: visible;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .field-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-beetwen;
+  }
 }

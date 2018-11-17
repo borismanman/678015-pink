@@ -1,10 +1,30 @@
 $text-color: hsl(211, 42, 20);
 
 body {
+  min-width: 320px;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
   color: $text-color;
+}
+
+.container {
+  width: 280px;
+  padding: 0 20px;
+}
+
+@media (min-width: 660px) {
+  .container {
+    width: 620px;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+    padding: 0 120px;
+  }
 }
 
 li {

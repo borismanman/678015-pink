@@ -3,12 +3,50 @@ $colorlight: hsl(211, 42, 22);
 
 .page-footer {
   text-align: center;
-  border: 2px solid green;
+  margin-top: -66px;
+}
+
+.footer-list {
+  padding: 0;
+  margin-top: 20px;
+}
+
+@media (min-width: 660px) {
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 .page-footer__communications {
   font-size: 24px;
   font-weight: lighter;
+  margin-bottom: 29px;
+}
+
+@media (min-width: 660px) {
+  .page-footer__communications {
+    font-size: 40px;
+    width: 500px;
+    margin-left: 65px;
+    margin-top: 50px;
+    margin-bottom: 37px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-footer__communications {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 660px) {
+  ul.footer-list li:nth-child(3) {
+    margin-top: 47px;
+    width: 300px;
+  }
 }
 
 .footer-contacts__connection {
@@ -30,4 +68,64 @@ $colorlight: hsl(211, 42, 22);
   color: lighten($colorlight, 50%);
   font-weight: lighter;
   text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  ul.footer-list li:nth-child(1) {
+    order: 1;
+  }
+}
+
+@media (min-width: 1200px) {
+  ul.footer-list li:nth-child(2) {
+    order: 3;
+  }
+}
+
+@media (min-width: 1200px) {
+  ul.footer-list li:nth-child(3) {
+    order: 2;
+  }
+}
+
+@media (min-width: 660px) {
+  .page-footer div.visually-hidden {
+    visibility: visible;
+    position: relative;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    display: flex;
+    margin-top: 347px;
+  }
+}
+
+@media (min-width: 660px) {
+  div.visually-hidden ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 81px;
+    margin-right: 145px;
+  }
+}
+
+@media (min-width: 660px) {
+  div.visually-hidden li:nth-child(1) {
+    margin-left: 28px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 660px) {
+  div.visually-hidden li:nth-child(2) {
+    margin-right: 53px;
+    margin-top: -2px;
+  }
+}
+
+@media (min-width: 660px) {
+  div.visually-hidden li:nth-child(3) {
+    margin-top: -4px;
+  }
 }

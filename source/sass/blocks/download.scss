@@ -4,15 +4,126 @@ $color-textwhite: hsl(0, 0, 100);
 .download {
   text-align: center;
   background-color: $color-indexblue;
-  padding-left: 20px;
-  padding-right: 20px;
-  border: 2px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  height: 271px;
+}
+
+@media (min-width: 660px) {
+  .download {
+    height: 0;
+  }
+}
+
+.download__platform {
+  margin-bottom: 2px;
+}
+
+@media (min-width: 660px) {
+  .download__platform {
+    margin-bottom: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .download__platform {
+    margin-bottom: 36px;
+  }
+}
+
+.download__platform--windows {
+  margin-bottom: 4px;
+}
+
+@media (min-width: 660px) {
+  .download__platform--windows {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .download__platform--windows {
+    margin-bottom: 38px;
+  }
+}
+
+@media (min-width: 660px) {
+  .download .container {
+    background: none;
+    background-position: center;
+    position: absolute;
+    padding-bottom: 112px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .download .container {
+    margin-left: 7px;
+    margin-top: -107px;
+  }
 }
 
 .download__app {
+  width: 281px;
+  height: 55px;
   font-size: 18px;
   line-height: 18px;
+  margin-bottom: 33px;
   color: $color-textwhite;
+  background-color: $color-indexblue;
+  border-radius: 27px;
+  border: 3px solid hsl(0, 0, 100);
+}
+
+@media (min-width: 660px) {
+  .download__app {
+    width: 300px;
+    margin-left: 3px;
+    background: none;
+    margin-top: 70px;
+    margin-bottom: 46px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .download__app {
+    margin-top: 125px;
+    margin-bottom: 65px;
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 660px) {
+  .download .visually-hidden {
+    visibility: visible;
+    position: relative;
+    color: white;
+    width: 200px;
+    height: 108px;
+    margin-left: 56px;
+    font-weight: 100;
+    line-height: 49px;
+    margin-top: -35px;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .download .visually-hidden {
+    visibility: visible;
+    position: relative;
+    color: white;
+    width: 250px;
+    height: 108px;
+    margin-left: 30px;
+    font-weight: 100;
+    line-height: 60px;
+    margin-top: 72px;
+    font-size: 50px;
+    text-align: center;
+  }
 }
 
 .download__availible {
@@ -20,4 +131,37 @@ $color-textwhite: hsl(0, 0, 100);
   line-height: 24px;
   font-weight: lighter;
   color: $color-textwhite;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+  .download__availible {
+    font-size: 18px;
+    width: 320px;
+    line-height: 24px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: -68px;
+  }
+}
+
+.download__platform--iphone {
+  padding-right: 34px;
+}
+
+@media (min-width: 1200px) {
+  .download__platform--iphone {
+    padding-right: 30px;
+    margin-left: 3px;
+  }
+}
+
+.download__platform--androind {
+  padding-right: 37px;
+}
+
+@media (min-width: 1200px) {
+  .download__platform--android {
+    padding-right: 33px;
+  }
 }

@@ -1,14 +1,48 @@
 .page-header {
-  background-image: url("../img/mobileback.jpg");
-  background-size: 320px 462px;
-  background-repeat: no-repeat;
-  border: 2px solid red;
+  height: 461px;
+  background: url("../img/handmobile.png") no-repeat 0% 100%, url("../img/mobileback.jpg") no-repeat;
 }
 
-.page-header__photo {
-  font-size: 24px;
-  line-height: auto;
-  color: hsl(0, 0, 100);
-  text-align: center;
-  font-weight: lighter;
+@media (min-width: 660px) {
+  .page-header {
+    height: 729px;
+    background: url("../img/handtablet.png") no-repeat 45% 100%, url("../img/tabletback.jpg") no-repeat 50% 50%;
+    margin-bottom: 31px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-header {
+    background: url("../img/iphonehanddesktop.png") no-repeat 97% 100%, url("../img/desctopback.jpg") no-repeat 50% 100%;
+  }
+}
+
+.page-headerphoto {
+  height: 237px;
+  background: url("../img/mobileback.jpg") no-repeat;
+}
+
+@media (min-width: 660px) {
+  .page-headerphoto {
+    background: url("../img/tabletback.jpg") no-repeat 50% 0;
+    height: 440px;
+  }
+}
+
+.page-headerform {
+  height: 496px;
+  background: url("../img/mobileback.jpg") no-repeat;
+}
+
+@media (min-width: 660px) {
+  .page-headerform {
+    background: url("../img/tabletback.jpg") no-repeat 50% 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-headerform {
+    background: url("../img/desctopback.jpg") no-repeat 50% 0;
+    height: 394px;
+  }
 }
