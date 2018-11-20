@@ -3,6 +3,10 @@
   background: url("../img/handmobile.png") no-repeat 0% 100%, url("../img/mobileback.jpg") no-repeat;
 }
 
+.logo-image {
+  margin: 21px;
+}
+
 @media (min-width: 660px) {
   .page-header {
     height: 729px;
